@@ -1,0 +1,123 @@
+/* everything */
+
+body {
+  background-color: #373f51;
+  color: #f4dbd8;
+  font-family: "Hedvig Letters Serif", serif;
+  padding: 3rem;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/* headers */
+
+h1, h2 {
+  text-align: center;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  font-style: italic;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/* navigation and links */
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4dbd8;
+  color: #373f51;
+  max-height: 15rem;
+}
+
+.nav-bar {
+  background-color: #ffcae9;
+  line-height: 2em;
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #373f51;
+  opacity: 0.8;
+  transition: 0.3s
+}
+
+a:hover {
+  font-size: 1.5rem;
+  opacity: 1;
+}
+
+/* navigation and links - breadcrumbs */
+
+ul.breadcrumb {
+  text-align: justify center;  
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 2rem;
+  content: "/\00a0";
+}
+
+/* images */
+
+.img-column {
+  float: right;
+  overflow: hidden;
+}
+
+.img-main {
+  width: 38rem;
+  height: auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#circe {
+  width: 14.5rem;
+}
+
+
+/* spacing */
+
+.main {
+  margin: auto;
+  width: 50%;
+  padding: 3rem 3rem 0 3rem;
+  background-color: #485696;
+  color: #9dacff;
+  line-height: 1.5rem;
+}
+
+
+/* scrollbar */
+
+*::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #444140;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffcae9;
+    border: none;
+}
